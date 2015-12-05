@@ -1,0 +1,4 @@
+---
+# tasks file for kostyrevaa.foreman-hammer_cli
+- include: install.yml
+- include: configure.yml

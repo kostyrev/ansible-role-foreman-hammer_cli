@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Aleksandr Kostyrev
+  description: Installs and configures foreman-hammer-cli
+  issue_tracker_url: https://github.com/kostyrevaa/ansible-role-foreman-hammer_cli/issues
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+      - 6
+      - 7
+  categories:
+    - cloud
+    - system
+dependencies:
+  - kostyrevaa.foreman
