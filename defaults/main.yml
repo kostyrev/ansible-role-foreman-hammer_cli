@@ -2,9 +2,11 @@
 # defaults file for kostyrevaa.foreman-hammer_cli
 foreman_hammer_cli_plugins:
   - foreman
+  - foreman_discovery
+
+foreman_hammer_cli_plugins_state: 'present'
 
 foreman_hammer_cli_config_path: '/etc/hammer/cli.modules.d'
-foreman_hammer_cli_foreman_config: 'foreman.yml'
 foreman_hammer_cli_config_owner: root
 foreman_hammer_cli_config_group: root
 foreman_hammer_cli_config_mode:  '0640'
